@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: sut.Sprint2.Test.Sprint2Test.Sprint2TestApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.363 s - in sut.Sprint2.Test.Sprint2Test.Sprint2TestApplicationTests

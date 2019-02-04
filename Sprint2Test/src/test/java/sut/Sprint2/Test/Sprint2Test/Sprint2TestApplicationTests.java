@@ -109,7 +109,7 @@ public class Sprint2TestApplicationTests {
 	public void foodpropNotPertern() {
 		
 			Foodproperties coolfood = new Foodproperties();
-			coolfood.setFoodproperties("สุดยอดครับลุงโทนี่");	
+			coolfood.setFoodproperties("สุดยอดครับ\n\tลุงโทนี่");	
 		try {
             entityManager.persist(coolfood);
             entityManager.flush();

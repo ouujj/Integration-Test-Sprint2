@@ -17,7 +17,7 @@ public class Foodproperties {
     private
     @NotNull(message = "กรุณากรอกชื่อและนามสกุล")
     @Size(min=2,max=250)
-    @Pattern(regexp = "^((?!(ลุงโทนี่|SamuelJackson)).)*$",message = "กรุณาใช้คำที่สุภาพ")
+    @Pattern(regexp = "^((?!(ลุงโทนี่|SamuelJackson))[\\s\\S])*$",message = "กรุณาใช้คำที่สุภาพ")
     @Column(unique = true)
     String foodproperties;
 
